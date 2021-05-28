@@ -1,4 +1,3 @@
-import ApiGet from '../src/module/api';
 import User from '../src/module/user';
 import Sound from '../src/module/sound';
 
@@ -6,22 +5,6 @@ describe('test', () => {
   it('It Should return "Hello World!"', () => {
     const test = 'Hello World!';
     expect(test).toBe('Hello World!');
-  });
-});
-
-describe('Test Api', () => {
-  it('It Should return succeeded message', async () => {
-    ApiGet('GET')
-      .then(data => {
-        expect(data).toEqual('Succeed');
-      });
-  });
-
-  it('It Should return err message', async () => {
-    ApiGet('POST', 'VERRRRY LONG STRINGGGGGGGGGGGGGGG', 1000000000000)
-      .then(data => {
-        expect(data).toEqual('err');
-      });
   });
 });
 

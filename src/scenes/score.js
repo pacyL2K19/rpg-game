@@ -50,6 +50,9 @@ export default class ScoresScene extends Phaser.Scene {
             this.sys.canvas.style.cursor = 'default';
           }
         });
+      })
+      .catch(() => {
+        this.scene.stop();
       });
 
     this.add.image(GAME_WIDTH / 2, (GAME_HEIGHT / 2), 'sky');

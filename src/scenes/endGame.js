@@ -29,6 +29,9 @@ export default class EndGameScene extends Phaser.Scene {
         .then(() => {
           this.scene.sendToBack('Game');
           this.scene.start('Scores');
+        })
+        .catch(() => {
+          this.scene.stop();
         });
     });
     this.input.on('pointerover', (event, gameObjects) => {

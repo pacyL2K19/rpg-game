@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { GAME_HEIGHT, GAME_WIDTH } from '../config/const-variable';
 
 // eslint-disable-next-line no-undef
@@ -31,11 +32,6 @@ export default class TitleScene extends Phaser.Scene {
     this.gameBtn = this.add.image(GAME_WIDTH / 2, (GAME_HEIGHT / 2) + 20, 'scores').setInteractive();
     this.gameBtn.on('pointerdown', () => {
       this.scene.start('Scores');
-    });
-
-    this.settingsBtn = this.add.image(GAME_WIDTH / 2, (GAME_HEIGHT / 2) + 130, 'credits').setInteractive();
-    this.settingsBtn.on('pointerdown', () => {
-      this.scene.start('Credits');
     });
 
     this.input.on('pointerover', (event, gameObjects) => {
