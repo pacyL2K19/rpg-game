@@ -11,7 +11,7 @@ export default class ScoresScene extends Phaser.Scene {
     this.sys.canvas.style.cursor = 'progress';
     let height = 50;
     let bgTime = 1;
-    ApiGet('GET', 'Daniel', 114)
+    ApiGet('GET', 'Pacifique', 114)
       .then(data => {
         data.sort((a, b) => b.score - a.score);
         Object.keys(data).forEach((score, index) => {

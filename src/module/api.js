@@ -2,7 +2,6 @@ const ApiGet = async (method, userName = null, scores = null) => {
   let settings;
   let url;
 
-
   if (method === 'POST') {
     const postData = { user: userName, score: scores };
     url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/dl-game/scores/';
