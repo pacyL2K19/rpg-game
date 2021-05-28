@@ -1,7 +1,6 @@
 import { GAME_HEIGHT, GAME_WIDTH } from '../config/const-variable';
 import ApiGet from '../module/api';
 
-
 // eslint-disable-next-line no-undef
 export default class ScoresScene extends Phaser.Scene {
   constructor() {

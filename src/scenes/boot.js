@@ -4,9 +4,9 @@ export default class BootScene extends Phaser.Scene {
     super('Boot');
   }
 
-  preload() {
-    this.load.image('logo', 'https://res.cloudinary.com/dl-cultures/image/upload/v1588612118/logo/HeroLogo.svg');
-  }
+  // preload() {
+  //   this.load.image('logo', 'https://res.cloudinary.com/pacyl20/image/upload/v1622210085/icon_k1qzvw.png');
+  // }
 
   create() {
     this.scene.start('Preload');

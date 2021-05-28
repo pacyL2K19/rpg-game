@@ -29,7 +29,7 @@ export default class UserScene extends Phaser.Scene {
     });
 
     this.lbl = this.make.text({
-      text: 'What\'s your name?',
+      text: 'Enter your name bellow',
       style: {
         font: '36px monospace',
         fill: '#422115',
