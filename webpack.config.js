@@ -1,6 +1,4 @@
 const path = require('path');
-const CopyPlugin = require('copy-webpack-plugin');
-const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
@@ -31,18 +29,4 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new CopyPlugin({
-      patterns: [
-        {
-          from: path.resolve(__dirname, 'src/assets', '**', '*'),
-          to: path.resolve(__dirname, 'dist'),
-        },
-      ],
-    }),
-    new webpack.DefinePlugin({
-      'typeof CANVAS_RENDERER': JSON.stringify(true),
-      'typeof WEBGL_RENDERER': JSON.stringify(true),
-    }),
-  ],
 };
