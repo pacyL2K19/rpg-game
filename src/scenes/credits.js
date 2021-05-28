@@ -37,7 +37,7 @@ export default class CreditsScene extends Phaser.Scene {
     const heroText = this.make.text({
       x: GAME_WIDTH / 2,
       y: GAME_HEIGHT / 2 + 50,
-      text: 'Daniel Laloush',
+      text: 'Pacifique Linjanja',
       style: {
         font: '36px monospace',
         fill: '#422115',

@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dandush03/Microverse-JS-Capstone.git"
+    "url": "git+https://github.com/pacyL2K19/rpg-game.git"
   },
-  "author": "Daniel Laloush",
+  "author": "Pacifique Linjanja",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dandush03/Microverse-JS-Capstone/issues"
+    "url": "https://github.com/pacyL2K19/rpg-game/issues"
   },
-  "homepage": "https://github.com/Dandush03/Microverse-JS-Capstone#readme",
+  "homepage": "https://github.com/pacyL2K19/rpg-game#readme",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
