@@ -1,8 +1,8 @@
 # Rpg-Game Microverse capstone project
 
-# weather-app
+# Escape Game
 
-> This project is part of Javascript Module with the aim of building an advanced a Weather App that display details about weather of a typed city - town
+> This project is a 2D Game built in Javacript and Phaser 3, the player has to escape the **Monster** while picking stars
 
 <p align="center">
     <a href="https://img.shields.io/badge/Microverse-blueviolet" alt="Contributors">
@@ -29,21 +29,25 @@
     <a href="#Show-your-support">Show your support</a> &#10023;
     <a href="#License">License</a> &#10023;
     <a href="#Acknowledgments">Acknowledgments</a> &#10023;
-    <a href="https://github.com/pacyL2K19/weather-app/issues">Report Bug</a>&#10023;
+    <a href="https://github.com/pacyL2K19/rpg-game/issues">Report Bug</a>&#10023;
 
 </p>
 
 <br/>
 
-<b>TODO List </b> The main goal of this project is to understand the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack and more advanced ES6 features
+<b>RPG Game - Escape </b> The main goal of this project is to understand the benefits of modularized code as well as the ability to set up a javascript application made of different modules using webpack and more advanced ES6 features
 
-<img src="./src/assets/screen.png" alt="Screenshot" style="margin: auto; display: block;">
-<p>When the typed city is not found</p>
-<img src="./src/assets/error.png" alt="Screenshot error" style="margin: auto; display: block;">
+<img src="game.gif" alt="Screenshot" style="margin: auto; display: block;">
 
 ## Watch the Live Version
 
-[Live Demo](https://pacyl2k19.github.io/weather-app/)
+[Live Demo](https://pacyl2k19.github.io/rpg-game/)
+
+## Rules
+
+- Use direction keys to move the player 
+- Escape the monster and while picking stars 
+- You choose to submit your score to be ranked among other players
 
 ### Prerequisites
 
@@ -59,9 +63,9 @@
 2. Navigate to your desired location to download the contents of this repository.
 3. Copy and paste the following code into the Terminal :
    ```bash
-   $ git clone https://github.com/pacyL2K19/weather-app.git
+   $ git clone https://github.com/pacyL2K19/rpg-game.git
    ```
-4. Run `cd weather-app`
+4. Run `cd rpg-game`
 5. Install the needed dependencies 
     ```bash
     $ npm install
@@ -80,7 +84,7 @@ Lauch the local version of this project opening the `dist/index.html` file in th
 
 This project was created for educational purposes as part of the Microverse web development curriculum; contributing is not accepted.
 
-Feel free to check the [issues page](https://github.com/pacyL2K19/weather-app/issues).
+Feel free to check the [issues page](https://github.com/pacyL2K19/rpg-game/issues).
 
 ## Author
 
