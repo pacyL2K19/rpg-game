@@ -1,6 +1,6 @@
+import Phaser from 'phaser';
 import { GAME_HEIGHT, GAME_WIDTH } from '../config/const-variable';
 
-// eslint-disable-next-line no-undef
 export default class UserScene extends Phaser.Scene {
   constructor() {
     super('User');

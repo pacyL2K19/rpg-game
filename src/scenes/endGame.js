@@ -1,7 +1,7 @@
+import Phaser from 'phaser';
 import { GAME_HEIGHT, GAME_WIDTH } from '../config/const-variable';
 import ApiGet from '../module/api';
 
-// eslint-disable-next-line no-undef
 export default class EndGameScene extends Phaser.Scene {
   constructor() {
     super('EndGame');

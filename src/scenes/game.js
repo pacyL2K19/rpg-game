@@ -1,5 +1,5 @@
 /* eslint-disable no-underscore-dangle */
-/* eslint-disable no-undef */
+import Phaser from 'phaser';
 import { GAME_HEIGHT, GAME_WIDTH } from '../config/const-variable';
 
 let player;

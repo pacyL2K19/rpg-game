@@ -1,10 +1,10 @@
+import Phaser from 'phaser';
 import '../stylesheet/main.scss';
 import config from '../config/config';
 import BootScene from '../scenes/boot';
 import PreloadScene from '../scenes/preload';
 import TitleScene from '../scenes/title';
 import OptionsScene from '../scenes/option';
-// import CreditsScene from '../scenes/credits';
 import GameScene from '../scenes/game';
 import ScoresScene from '../scenes/score';
 import UserScene from '../scenes/user';
@@ -13,7 +13,6 @@ import EndGameScene from '../scenes/endGame';
 import Sound from './sound';
 import User from './user';
 
-// eslint-disable-next-line no-undef
 class Game extends Phaser.Game {
   constructor() {
     super(config);

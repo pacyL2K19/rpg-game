@@ -1,5 +1,7 @@
+/* eslint-disable radix */
+import Phaser from 'phaser';
 import { GAME_HEIGHT, GAME_WIDTH } from '../config/const-variable';
-// eslint-disable-next-line no-undef
+
 export default class PreloadScene extends Phaser.Scene {
   constructor() {
     super('Preload');
@@ -75,7 +77,6 @@ export default class PreloadScene extends Phaser.Scene {
 
     // update progress bar
     this.load.on('progress', (value) => {
-      // eslint-disable-next-line radix
       percentText.setText(`${parseInt(value * 100)}%`);
       progressBar.clear();
       progressBar.fillStyle(0xffffff, 1);
