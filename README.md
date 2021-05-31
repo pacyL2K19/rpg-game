@@ -72,10 +72,14 @@
     ```
 6. run
     ```bash
-    npm run build
+    npm run server
     ``` 
     to bundle scripts with **_webpack_** a static module bundler for modern JavaScript applications
     Then open the `dist/index.html` in a web browser
+7. Run all the tests 
+    ```bash
+    npm run test
+    ```
 
 ### Usage
 Lauch the local version of this project opening the `dist/index.html` file in the browser
